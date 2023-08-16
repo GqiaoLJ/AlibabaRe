@@ -1,1 +1,12 @@
 ddd
+add
+commit
+mearg
+pull
+push
+git log查看版本提交日期
+回滚:git reset --hard e992a9171e6bfd12fb696e81f04eba338d53e471
+强制提交:git push -f
+git log查看是否成功
+df -h
+查看文件占用磁盘空间:du -ah --max dept=1 .
