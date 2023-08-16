@@ -10,3 +10,19 @@ git log查看版本提交日期
 git log查看是否成功
 df -h
 查看文件占用磁盘空间:du -ah --max dept=1 .
+
+怎么管理分支
+基于maser分支开
+uat
+pre
+chk
+怎么下载分支
+git clone -b 分支名
+怎么合并分支
+git pull,先拉取最新代码,gitcommit 提交到缓存区,git push提交到远程仓库
+怎么管理分支
+需求开发分支,uat测试环境分支,pre预上线环境分支,chk生产分支
+每次上线前先检查下chk生产分支的代码,通过反编译工具查看代码是否正确,对比预上线pre分支,和
+本地需求分支;
+linux命令:cp cat
+
