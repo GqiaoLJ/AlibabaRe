@@ -1,0 +1,20 @@
+package Book;
+
+/**
+ * 实现一个算法,删除单向链表中间的某个结点,假定只能访问该结点
+ * 示例:
+ * 输入单向链表 a->b->c->d->e
+ * 结果:不返回任何数据,但该链表变为a->b->d->e
+ * <p>
+ * 给定待删除的节点,请执行删除操作,若该节点为尾节点,返回false,否则返回true
+ */
+
+public class _2_3RemoveNodeN1 {
+    public boolean removeNode(ListNode pNode) {
+        if (pNode.next == null)
+            return false;
+        pNode.val=pNode.next.val;
+        pNode.next=pNode.next.next;
+        return true;
+    }
+}
